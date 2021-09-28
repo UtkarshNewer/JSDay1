@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui;
+    background: #4a38ec;
+    color: white;
+    text-align: center;
+    /* font-size: 15vmin; */
+  }
+  #message{
+    font-size: 15vmin;
+  
+  }
+  #time{
+      font-size: 24vmin;
+  
+  }
+  #date{
+      font-size: 10vmin;
+  
+  }
+  p{
+      font-size: 20vmin;
+      margin: 0;
+  }
