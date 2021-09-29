@@ -87,9 +87,9 @@ function time(){
 
     if(hr>5  && timeZone=="AM")
         timeMessage="Good Morning";
-    else if((hr>9  && timeZone=="PM")||(hr<5 && timezone=="AM"))
+    else if((hr>9  && timeZone=="PM")||(hr<5 && timeZone=="AM"))
         timeMessage="Good Night";
-    if(hr<5  && timeZone=="PM")
+    else if(hr<5  && timeZone=="PM")
         timeMessage="Good Afternoon";
     else
         timeMessage="Good Evening";
